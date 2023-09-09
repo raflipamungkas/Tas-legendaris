@@ -29,6 +29,60 @@ p{
     color: aliceblue !important;
     font-weight: bold !important;
 }
+.kontak-form h1{
+    font: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    margin-left: -25px;
+}
+    
+.kontak-form input{
+    width: 1300px;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 30px; 
+    margin-left: 30px; 
+    padding: 15px;
+}
+.kontak-form textarea{
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 30px; 
+    margin-left: 30px; 
+    padding: 15px;
+}
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form textarea{
+    font-size: 15px;
+    color: gray;   
+    border-radius: 10px;
+    background-color:#eee
+
+    }
+.kontak-form button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.kontak-form button:hover{
+    opacity: 0.7;
+}
+
+
 
 @media screen and (max-width: 768px) {
     img{
@@ -37,4 +91,44 @@ p{
         height: 300px;
         border-radius: 12px;
     }
+    .kontak-form input{
+        width: 300px;
+        height: 25px;
+        display: flex;
+        flex-wrap: wrap;  
+        margin-top: 30px; 
+        margin-left: 30px; 
+        padding: 15px;
+    }
+    .kontak-form textarea{
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;  
+        margin-top: 30px; 
+        margin-left: 30px; 
+        padding: 15px;
+}
+.kontak-form button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.kontak-form h1{
+    font: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    margin-left: -25px;
+}
+
 }
