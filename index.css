@@ -1,0 +1,165 @@
+.Header{
+    
+    background-color: orange !important;
+}
+
+.nav-link{
+    color: red !important;
+}
+
+.navbar-brand{
+color: red !important;
+font-weight: bold !important;
+}
+
+.hero{
+height: 500px;
+background-image: url('Bacground.jpg');
+background-repeat: no-repeat;    
+background-size: cover;
+padding: 200px;
+text-align: center;
+}
+
+.produk {
+    background-color: aliceblue;
+    height: 350px;
+    width: 230px;
+}
+
+.hero a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.produk img {
+    height: 150px;
+    width: 150px;
+    
+    margin-left: 40px;
+    margin-top: 10px;
+    
+  
+}
+
+.produk{
+    background-color:rgb(255, 246, 246);    
+    height: 300px;
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 3px 2px 1px gray;
+
+}
+.produk a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 3px;
+    margin-left: 35px;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: red;
+}
+
+.all-produk{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Nama-produk{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.harga-produk{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 450;
+}
+
+.Footer{
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.Footer p{
+    color: white;
+    font-size: 15px;
+}
+
+@media  (max-width: 768px){
+    .hero{
+            height: 300px;  
+            padding: 55px;
+            text-align: center;
+            width:350px ;
+            padding-left: 100px;  
+                
+
+    }   
+    .hero a{
+        color: white;
+        text-decoration: none;
+        background-color: orange;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+        text-align: center;
+        
+            
+    }
+    }
+    .produk{
+        width: 150px;
+        height: 300px;
+    }
+    .produk img{
+        width: 120px;
+        height: 150px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+        
+    }
+    .Nama-produk{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .produk a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px ;
+        padding-left: 5px;
+    }
+ 
+    .Footer p{
+        font-size: 10px;
+    }
+    
+    
+
+
+    
